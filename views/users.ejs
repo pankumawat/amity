@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Users Example</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <% for(let [index,user] of (users || []).entries()){  %>
+   <h1><%= user.name %>(<%= user.gender == "Male" ? "M" : "F" %>)</h1>
+  <%} %>
+  </body>
+</html>
