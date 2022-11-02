@@ -1,9 +1,9 @@
 # amity
-# commands to get it running.
-# commands are for mac/unix/linux
-# please change commands according to windows incase not working.
+Commands to get it running:
+Commands are for mac/unix/linux
+Please change commands according to windows incase not working.
 
-git clone git@github.com:pankumawat/amity.git
-cd amity
-npm install
-npm start
+git clone git@github.com:pankumawat/amity.git<br/>
+cd amity<br/>
+npm install<br/>
+npm start<br/>
